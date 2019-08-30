@@ -1,0 +1,44 @@
+.main-container{
+  height: 200%;
+  width: 100%;
+  border: 1px solid black
+}
+.blog-container {
+  width: 60%;
+  height:270px;
+  border: 1px solid black;
+  margin: 0 auto;
+
+}
+h1 {
+  font-size: 24pt;
+  color: purple;
+}
+p {
+  font-size: 18pt;
+  color: rgb(189, 63, 189);
+}
+div.description {
+  font-size: 14pt;
+  color: rgb(37, 30, 30);
+}
+.blog-container2 {
+  width: 60%;
+  height: 270px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.blog-container3 {
+  width: 60%;
+  height: 270px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.blog-container4 {
+  width: 60%;
+  height: 270px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
