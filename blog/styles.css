@@ -1,22 +1,29 @@
 .main-container{
-  height: 200%;
+  height: 250%;
   width: 100%;
-  border: 1px solid black
+  border: 2px solid black;
+  color: #7E7980;
+  background-color: #D6CED9;
+  border: 16px double #FCF2FF;
 }
+
 .blog-container {
   width: 60%;
-  height:270px;
+  height:300px;
   border: 1px solid black;
   margin: 0 auto;
-
+  background-color: #FCF2FF;
+  border: 16px solid #504D51;
+  
 }
 h1 {
   font-size: 24pt;
-  color: purple;
+  color:rgb(113, 108, 114);
+  
 }
 p {
-  font-size: 18pt;
-  color: rgb(189, 63, 189);
+  font-size: 16pt;
+  color:rgb(113, 108, 114);
 }
 div.description {
   font-size: 14pt;
@@ -24,21 +31,55 @@ div.description {
 }
 .blog-container2 {
   width: 60%;
-  height: 270px;
+  height: 300px;
   border: 1px solid black;
   margin: 0 auto;
+  background-color: #FCF2FF;
+  border: 16px solid #504D51;
 }
 
 .blog-container3 {
   width: 60%;
-  height: 270px;
+  height: 300px;
   border: 1px solid black;
   margin: 0 auto;
+  background-color: #FCF2FF;
+  border: 16px solid #504D51;
 }
 
 .blog-container4 {
   width: 60%;
-  height: 270px;
+  height: 300px;
   border: 1px solid black;
   margin: 0 auto;
+  background-color: #FCF2FF;
+  border: 16px solid #504D51;
+}
+
+.blog-container5 {
+  width: 60%;
+  height: 240px;
+  border: 1px solid black;
+  margin: 0 auto;
+  background-color: #504D51;
+  border: 16px double #FCF2FF;
+  }
+h2{
+  font-size: 50pt;
+  color: #FCF2FF;
+  text-align: center;
+  text-shadow: -5px -3px 1px #BF82E3;
+}
+h3{
+  font-size: 25pt;
+  color: #FCF2FF;
+  text-align: center;
+  text-shadow: -5px -3px 1px rgba(191,130,227,0.2);
+}
+
+p1 {
+  font-size: 26pt;
+  color: #FCF2FF;
+  text-align: center;
+  text-shadow: -5px -3px 1px #BF82E3;
 }
