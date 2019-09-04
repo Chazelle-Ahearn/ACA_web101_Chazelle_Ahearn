@@ -23,11 +23,11 @@ h1{
 
 p{
   font-size: 14pt;
-  text-align: center;
+  text-align: left;
 }
 
 .section1{
-  height: 40%;
+  height: 59%;
   width: 100%;
   border: 2px solid black;
 
@@ -53,10 +53,10 @@ img {
 
 }
 
-p1{
+.contact{
   text-align: center;
   font-size: 16pt;
-  
+
 }
 
 .section3{
