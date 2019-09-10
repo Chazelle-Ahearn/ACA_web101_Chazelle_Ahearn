@@ -45,14 +45,6 @@ button{
     height: 30%;
     
   }
-  
-  .boxed {
-    background-color: rgb(222, 202, 241);
-    font-size: 26px;
-    font-weight: bold;
-    color: rgb(255, 251, 251);
-
-  }
  
 
 
@@ -86,12 +78,6 @@ button{
 }
 
 
-
-  
-
-
-
- 
   @media (min-width: 768px) {
     .main-container .item {
       display: inline-block;
