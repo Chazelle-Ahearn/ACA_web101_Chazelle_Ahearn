@@ -63,7 +63,9 @@ button{
   }
 
   .item {
-    position: absolute;
+    float: left; 
+    padding-left: 10px;
+    padding-top: 10px;
     bottom: 90px;
     left: 10px;
     width: 100px;
@@ -75,17 +77,13 @@ button{
   }
 
 .social-media {
-  position: absolute;
-  bottom: 90px;
-  left: 250px;
-  width: 100px;
-  height: 100px;
   font-family: Georgia, serif;
   font-size: 15px;
-
+  float: right; 
+  padding-right: 30px;
+  padding-top: 10px;
   
 }
-
 
 
 
