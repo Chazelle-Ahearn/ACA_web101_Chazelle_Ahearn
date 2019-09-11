@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% repeat(8, 1fr) 5%;
+  grid-template-rows: repeat(4, 1fr);
+  background-image: url("./headphones.jpg");
+  /* background-size: 300px 200px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box{
+  height: 100%;
+  width: 100%;
+}
+
+.one{
+  background-color: rgba(255, 192, 203, 0.192);
+  grid-row: 1/5;
+  border: 1px;
+}
+
+.two{
+  background-color: rgba(255, 192, 203, 0.192); 
+  grid-row: 1/5;
+}
+
+.three{
+  background-color: rgba(255, 192, 203, 0.192);
+  grid-row: 1/5;
+}
+
+
+.four{
+  background-color: rgba(255, 192, 203, 0.192);
+  grid-row: 1/5;
+}
+
+.five{
+  background-color: rgb(160, 238, 221);
+  grid-row: 1/5;
+}
+
+.six {
+  background-color: rgb(160, 238, 221);
+  grid-row: 1/5;
+}
+
+.seven{
+  background-color: rgb(160, 238, 221);
+  grid-row: 1/5;
+}
+
+.eight{
+  background-color: rgb(160, 238, 221)
+  grid-row: 1/5;
+}
+
+.nine{
+  background-color: pink;
+  grid-row: 1/5;
+}
+
+.ten{
+  background-color: pink;
+  grid-row: 1/5;
+}
