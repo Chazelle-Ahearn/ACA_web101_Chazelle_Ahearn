@@ -1,0 +1,98 @@
+*{
+  background-color: rgb(241, 238, 233);
+}
+.main-container{
+  height: 250%;
+  width: 100%;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(241, 238, 233);
+}
+
+.header{
+  height: 15%;
+  width: 100%;
+  border: 2px solid black;
+  color: black;
+  font-variant: small-caps;
+}
+
+h1{
+  font-size: 36pt;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p{
+  font-size: 14pt;
+  text-align: left;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
+}
+
+.section1{
+  height: 59%;
+  width: 100%;
+  border: 1px solid black;
+  border: 1px dashed black;
+
+}
+
+h3{
+  font-size: 26pt;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
+}
+
+.section2{
+  height: 50%;
+  width: 100%;
+  border: 0px solid black;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contact{
+  text-align: center;
+  font-size: 16pt;
+
+}
+
+.section3{
+  height: 35%;
+  width: 100%;
+  border: 0px solid black;
+}
+
+.section4{
+  height: 0%;
+  width: 100%;
+  border: 0px solid black;
+  
+
+}
+
+.rightside, .leftside{
+  width: 46%;
+  display: inline-block;
+
+}
+
+p1{
+  font-size: 14pt;
+  text-align: left;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
+  color: rgb(241, 238, 233)
+}
+h4{
+  color: rgb(241, 238, 233)
+}
