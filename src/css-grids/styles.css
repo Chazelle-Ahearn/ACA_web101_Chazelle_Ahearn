@@ -26,53 +26,60 @@ body{
 }
 
 .one{
-  background-color: rgba(255, 192, 203, 0.192);
+  background-color: rgba(255, 192, 203, 0.65);
   grid-row: 1/5;
   border: 1px;
 }
 
 .two{
-  background-color: rgba(255, 192, 203, 0.192); 
+  background-color: rgba(255, 192, 203, 0.65); 
   grid-row: 1/5;
+  grid-column: 2/3;
+
+}
+
+.two p{
+  transform: rotate(-90deg);
+  
 }
 
 .three{
-  background-color: rgba(255, 192, 203, 0.192);
+  background-color:rgba(255, 192, 203, 0.65);
   grid-row: 1/5;
 }
 
 
 .four{
-  background-color: rgba(255, 192, 203, 0.192);
+  background-color:rgba(255, 192, 203, 0.51);
   grid-row: 1/5;
 }
 
 .five{
-  background-color: rgb(160, 238, 221);
+  background-color: rgba(160, 238, 221, 0.6);
   grid-row: 1/5;
 }
 
 .six {
-  background-color: rgb(160, 238, 221);
+  background-color: rgba(160, 238, 221, 0.6);
   grid-row: 1/5;
 }
 
 .seven{
-  background-color: rgb(160, 238, 221);
+  background-color: rgba(160, 238, 221, 0.6);
   grid-row: 1/5;
 }
 
 .eight{
-  background-color: rgb(160, 238, 221)
+  background-color: rgba(160, 238, 221, 0.6);
   grid-row: 1/5;
 }
 
 .nine{
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0.65);
   grid-row: 1/5;
 }
 
 .ten{
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0.65);
   grid-row: 1/5;
 }
