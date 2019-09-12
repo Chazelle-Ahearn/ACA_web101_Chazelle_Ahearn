@@ -47,17 +47,102 @@ body{
 }
 
 .four{
-  background-color: black;
+  background-color: #000000d6;
   grid-row: 2/11;
   grid-column: 6/8;
 }
 .five{
   grid-column: 6/8;
-  grid-row: 3/4;
-  color: hotpink;
-  font-size: 40px;
+  grid-row: 6/8;
+  color: white;
+  text-align: center;
+  font-size: 130px;
   font-weight: 500;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  
 }
+
+.six{
+  grid-column: 3/4;
+  grid-row: 7/8;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  transform: rotate(-90deg);
+  
+}
+
+.seven{
+  grid-column: 3/4;
+  grid-row: 9/10;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  
+}
+
+.eight{
+  grid-column: 3/4;
+  grid-row: 10/11;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  
+}
+
+.nine{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  
+}
+
+.ten{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  text-align: right;
+  
+}
+
+.eleven{
+  grid-column: 5/6;
+  grid-row: 7/8;
+  color: white;
+  font-size: 55px;
+  font-weight: 350;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  text-align: bottom;
+
+}
+
+.twelve{
+  grid-column: 5/6;
+  grid-row: 8/9;
+  color: white;
+  font-size: 15px;
+  font-weight: 350;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  text-align: bottom;
+}
+
+.thirteen{
+  background-color: white;
+  grid-column: 7/8;
+  grid-row: 8/10;
+}
+
+
+
 /* .two p{
   transform: rotate(-90deg);
   
