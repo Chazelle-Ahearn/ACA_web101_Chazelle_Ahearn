@@ -78,7 +78,7 @@ body{
   justify-content: space-around;
   font-size: 22px;
   font-weight: bold;
-  margin: -15px;
+  margin: -8px;
 
 }
 
@@ -114,7 +114,7 @@ body{
 }
 
 .lead-rotation{
-  height: 300px;
+  height: 280px;
   width: 275px;
   margin-left: 90px;
 
@@ -179,6 +179,13 @@ body{
   border-radius: 6px;
   grid-row: 8/9;
   grid-column: 3/4;
+}
+
+.add-lead{
+  height: 300px;
+  width: 275px;
+  margin-top: 40px;
+  margin-left: 90px;
 }
 
 .fifty-eight{
