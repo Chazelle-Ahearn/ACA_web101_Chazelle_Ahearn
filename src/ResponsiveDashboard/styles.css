@@ -37,8 +37,9 @@ body{
 }
 
 .eight{
-  background-color: rgb(235, 233, 233);
+  background-color: rgb(207, 204, 204);
 }
+
 
 
 .nine{
@@ -53,7 +54,14 @@ body{
 .fifteen{
   display: flex;
   justify-content: space-around;
-  margin: 5px;
+  background-color:  rgb(235, 233, 233);
+
+}
+
+.todo{
+  height: 25px;
+  width: 25px;
+  margin-top: 9px;
 }
 
 .sixteen{
@@ -69,21 +77,82 @@ body{
 .twenty-two{
   display: flex;
   justify-content: space-around;
-  margin: 5px;
+  background-color: rgb(235, 233, 233);
+}
+
+.clients{
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
 }
 
 .twenty-nine{
   display: flex;
   justify-content: space-around;
-  margin: 5px;
+  background-color: rgb(235, 233, 233);
+}
+
+.money{
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
+
+}
+
+.graph{
+  border-radius:6px;
+
 }
 
 .thirty-six{
   display: flex;
   justify-content: space-around;
-  margin: 5px;
+  background-color: rgb(235, 233, 233);
 }
 
+.calendar{
+  height: 25px;
+  width: 25px;
+  margin-top: 6px;
+}
+
+.forty-three, .fifty, .fifty-seven {
+  background-color:  rgb(235, 233, 233);
+}
+
+.fifty-one{
+  border: 2px solid rgb(0, 0, 0);
+  margin: 15px;
+  border-radius: 6px;
+}
+
+.fifty-two{
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+}
+
+.fifty-eight{
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+}
+
+.fifty-nine{
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+}
+
+/* .top{
+  width: 100%;
+  height: 5px;
+  color: lime;
+} */
+
+.ninety{
+  color: red;
+}
 
 .button1 {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
@@ -148,40 +217,36 @@ body{
   }
 
   .button2:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
-    background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
-    background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
-    background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
-    background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
-    background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
     background-color:#77a809;
   }
 
   .button-group{
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
-	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
-	background-color:#3d94f6;
-	-moz-border-radius:3px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:2px solid #337fed;
-	display: inline-block;
-	cursor: pointer;
-	color: #ffffff;
-	font-family: Arial;
-	font-size: 15px;
-  font-weight: bold;
-	padding: 10px 10px;
-	text-decoration:none;
-  text-shadow:0px 1px 0px #1570cd;
-  font-size: 20px;
-  margin: 3px 40px;
+    background-color:#3d94f6;
+	  border-radius:6px;
+	  border:2px solid #337fed;
+  	padding: 10px 10px;
+    margin: 3px 40px;
+    width: 200px;
+  }
+
+  .me, .atx{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    margin-right: .5px;
+  }
+
+  .company{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 5px;
+    width: 85px;
+    height: 30px;
+    margin-left: 2px;
   }
 
 
