@@ -110,13 +110,20 @@ body{
 
 .graph{
   border-radius:6px;
+  border: 4px solid rgba(179, 172, 172, 0.986);
+  height: 250px;
+  width: 550px;
+  margin-left: 15px;
+
 
 }
 
 .lead-rotation{
-  height: 280px;
-  width: 275px;
-  margin-left: 90px;
+  border: 4px solid rgba(179, 172, 172, 0.986);
+  border-radius:6px;
+  height: 381px;
+  width: 300px;
+  margin-left: 30px;
 
 }
 
@@ -181,12 +188,12 @@ body{
   grid-column: 3/4;
 }
 
-.add-lead{
+/* .add-lead{
   height: 300px;
   width: 275px;
   margin-top: 40px;
   margin-left: 90px;
-}
+} */
 
 .fifty-eight{
   border: 2px solid black;
@@ -224,6 +231,39 @@ body{
 
 .sixty{
   background-color:  rgb(235, 233, 233);
+}
+
+.sixty-one{
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+  border-top: 10px solid #3dca49;
+}
+
+.sixty-one{
+  border-left: 4px solid rgba(179, 172, 172, 0.986);
+  border-right: 4px solid rgba(179, 172, 172, 0.986);
+  border-bottom: 4px solid rgba(179, 172, 172, 0.986);
+  margin: 15px;
+  border-radius: 6px;
+  grid-row: 9/9;
+  grid-column: 4/7;
+}
+
+.dollar-amount{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.income{
+  margin-top: -80px;
+  margin-left: 5px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
 }
 
 
@@ -416,4 +456,39 @@ p{
 .dropdown:hover .dropbtn {
   background-color: #5ba0e6;
 }
+
+
+
+
+/* ***THIS IS CODE FOR PHONE MEDIA QUERIES*** */
+/* @media (max-width: 576px) {
+  .grid-container {
+   grid-template-rows: 7% 5% 5% 5% 5% 5% 25% 20% 1fr;
+  }
+  .fifty-two{
+  grid-row: 8/9;
+  grid-column: 2/-1;
+
+  }
+
+  .thirty{
+    grid-row: 6/7;
+    grid-column: 2/-1;
+  }
+
+.thirty-two{
+  grid-row: 7/8;
+  grid-column: 2/-1;
+}
+
+} */
+
+
+
+
+/* @media (min-width: 992px) {
+  .main-container . {
+    display: inline-block;
+  }
+} */
 
