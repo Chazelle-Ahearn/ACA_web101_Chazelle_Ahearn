@@ -461,27 +461,88 @@ p{
 
 
 /* ***THIS IS CODE FOR PHONE MEDIA QUERIES*** */
-/* @media (max-width: 576px) {
+
+@media (max-width: 576px) {
   .grid-container {
    grid-template-rows: 7% 5% 5% 5% 5% 5% 25% 20% 1fr;
   }
+
+  /* ADD NEW LEAD */
+  .button1{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    }
+
+/* ON ROTATION */
+ .button2{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    }
+
+ /* PROFILE PICTURE */
+    .profile-pic{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    }
+
+    /* THREE BUTTONS */
+    .button-group{
+      grid-row: 7/8;
+      grid-column: 2/-1;
+    }
+
+    /* DROPDOWN THIS QUARTER */
+    .dropdown{
+      grid-row: 7/8;
+      grid-column: 2/-1;
+    }
+
+   /* GRAPH */
+    .thirty{
+      grid-row: 7/8;
+      grid-column: 2/-1;
+    }
+
+   
+   /* LEAD ROTATION */
+    .thirty-two{
+      grid-row: 8/9;
+      grid-column: 2/-1;
+      }
+
+  /* NPS */
+  .fifty-one{
+    grid-row: 8/9;
+    grid-column: 2/-1;
+    }
+
+  /* RANK */
   .fifty-two{
   grid-row: 8/9;
   grid-column: 2/-1;
-
   }
 
-  .thirty{
-    grid-row: 6/7;
-    grid-column: 2/-1;
-  }
 
-.thirty-two{
+/* LEAD ROTATION */
+  .thirty-two{
   grid-row: 7/8;
   grid-column: 2/-1;
 }
 
-} */
+/* POINTS */
+.fifty-eight{
+  grid-row: 7/8;
+  grid-column: 2/-1;
+}
+
+/* INCOME */
+.sixty-one{
+  grid-row: 7/8;
+  grid-column: 2/-1;
+}
+
+
+}
 
 
 
