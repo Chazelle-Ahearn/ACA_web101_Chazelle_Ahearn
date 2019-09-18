@@ -25,6 +25,10 @@ body{
   background-color: rgb(55, 134, 252);
 }
 
+.burger{
+  margin-left: 17px;
+}
+
 .two{
   float: left;
   display: block;
@@ -44,11 +48,14 @@ body{
   border-radius: 4px;
 }
 
+/* HOME BUTTON */
 .eight{
   background-color: rgb(207, 204, 204);
 }
 
-
+.home{
+  margin-left: 17px;
+}
 
 .nine{
   font-family: Arial;
@@ -111,9 +118,10 @@ body{
 .graph{
   border-radius:6px;
   border: 4px solid rgba(179, 172, 172, 0.986);
-  height: 250px;
-  width: 550px;
+  height: 295px;
+  width: 775px;
   margin-left: 15px;
+  margin-top: -17px;
 
 
 }
@@ -121,9 +129,10 @@ body{
 .lead-rotation{
   border: 4px solid rgba(179, 172, 172, 0.986);
   border-radius:6px;
-  height: 381px;
-  width: 300px;
-  margin-left: 30px;
+  height: 451px;
+  width: 453px;
+  margin-left: 16px;
+  margin-top: -17px;
 
 }
 
@@ -464,13 +473,45 @@ p{
 
 @media (max-width: 576px) {
   .grid-container {
-   grid-template-rows: 7% 5% 5% 5% 5% 5% 25% 20% 1fr;
+   grid-template-rows: repeat(8) 1fr;
+   grid-template-columns: 300px 300px;
+   
+  }
+
+  /* MENU SIDE BAR */
+  .burger{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  /* TO DO SIDE BAR */
+  .todo{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+
+  /* CLIENTS SIDE BAR */
+  .clients{
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  /* MONEY SIDE BAR */
+  .money{
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+
+  /* CALENDAR SIDE BAR */
+  .calendar{
+    grid-row: 5/6;
+    grid-column: 1/2;
   }
 
   /* ADD NEW LEAD */
   .button1{
-    grid-row: 4/5;
-    grid-column: 3/4;
+    grid-row: 1/2;
+    grid-column: 1/2;
     }
 
 /* ON ROTATION */
