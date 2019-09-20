@@ -166,18 +166,60 @@
 
 .six{
   background-color: rgb(48, 44, 44);
-  height: 100px;
+  height: 110px;
   width: 500px;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.copy-right{
+  background-color: rgb(48, 44, 44);
+  color: white;
+  padding-top: 10px;
 }
 
 
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(48, 44, 44);
+  margin-right: 200px;
+  padding-top: 30px;
+  
+  
+}
 
+.twitter{
+  width: 30px;
+  margin: 10px;
+}
 
+.facebook{
+ 
+  width: 30px;
+  margin: 10px;
+}
+
+.google{
+  
+  width: 30px;
+  margin: 10px;
+}
+
+.pinterest{
+  
+  width: 30px;
+  margin: 10px;
+}
+
+.seven{
+  background-color: white;
+  height: 5%;
+}
 
 
 /* .four{
