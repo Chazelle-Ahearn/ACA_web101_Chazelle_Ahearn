@@ -1,14 +1,15 @@
 *{
   background-color: rgb(255, 255, 255);
   margin: 0;
+
 }
 
 .grid-container{
   height: 100%;
   width: 100%;
   /* display: grid; */
-  grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
-  grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr;
+  /* grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
+  grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr; */
 }
 
 .header{
@@ -17,8 +18,8 @@
   width: 375px;
   border-bottom: 1px dashed rgb(133, 131, 131);
   font-family: 'Paytone One', sans-serif;
-  grid-row: 1/2;
-  grid-column: 1/12;
+  /* grid-row: 1/2;
+  grid-column: 1/12; */
   align-items: flex-end;
 }
 
@@ -26,19 +27,18 @@
 .one{
   background-color: rgb(206, 203, 203);
   height: 40px;
-  width: 375px;
+  width: 500px;
   border-bottom: 1px dashed rgb(133, 131, 131);
   font-family: 'Paytone One', sans-serif;
   font-size: 14px;
-  grid-row: 1/2;
-  grid-column: 1/12;
-
+  /* grid-row: 1/2;
+  grid-column: 1/12; */
 }
 
 .mustache{
   height: 50px;
-  width: 80px;
-  margin-left: 140px;
+  width: 170px;
+  margin-left: 150px;
   margin-top: 15px;
   /* display:grid;
   grid-row: 3/5;
@@ -48,68 +48,131 @@
 }
 
 .mustacchio{
-  font-size: 35px;
+  font-size: 60px;
   font-family: 'Pacifico', cursive;
   /* display:grid;
   grid-row: 3/5;
   grid-column: 2/8; */
-  margin-left: 110px;
+  margin-left: 120px;
   margin-bottom: 20px;
   margin-top: -18px;
 }
 
-.twenty-four{
+.three{
+  color: black;
+  margin-left: 220px;
+  margin-bottom: 20px;
+}
+
+.background-picture{
+  background-image: url("./beard1.png");
+  width: 500px;
+  height: 600px;
+  background-repeat: no-repeat;
+  line-height: 50px;
+
+}
+
+.line-one{
+  background-color: white;
+  color: black;
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+
+}
+
+.line-two{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+}
+
+.line-three{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+}
+
+.line-four{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+}
+
+.button {
+  background-color: rgb(45, 141, 170);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.four{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  grid-row: 4/5;
-  grid-column: 2/7;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.home{
-  margin-left: 12px;
-  /* margin-top: -20px; */
-  font-size: 13px;
+.neckline{
+  width: 400px;
+  height: 300px;
+  margin-left: 130px; 
 }
 
-.about{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.gallery{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.blog{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.contact{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.beard-one{
-  /* display: grid;
-  grid-row: 4/10;
-  grid-column: 1/13; */
-  width: 375px;
-  height: 250px;
-  margin-top: 50px;
+.neckline-text{
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  
 }
 
 .selleck{
- border: 1px solid black;
- margin-top: 30px;
- width: 125px;
- height: 125px;
+  width: 300px;
+  height: 300px;
+}
+
+.selleck-text{
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.hipster{
+  width: 400px;
+  height: 300px;
+  margin-right: 90px;
+
+}
+
+.hipster-text{
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.six{
+  background-color: rgb(48, 44, 44);
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 30px;
 }
 
 
@@ -117,7 +180,31 @@
 
 
 
-@media (min-width: 768px) {
+/* .four{
+  background-image: url("./beard1.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+
+
+/* .forty-one{
+  display: flex;
+  justify-content: space-around;
+} */
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 768px) {
   .main-container .item {
     display: inline-block;
   }
@@ -125,6 +212,37 @@
   @media (min-width: 992px) {
     .main-container .item {
       display: inline-block;
+    } */
+
+    /* .twenty-four{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
     }
+    
+    .home{
+      margin-left: 12px;
+      font-size: 13px;
+    }
+    
+    .about{
+      margin-left: 12px;
+      font-size: 13px;
+    }
+    
+    .gallery{
+      margin-left: 12px;
+      font-size: 13px;
+    }
+    
+    .blog{
+      margin-left: 12px;
+      font-size: 13px;
+    }
+    
+    .contact{
+      margin-left: 12px;
+      font-size: 13px;
+    } */
 
 
