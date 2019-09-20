@@ -484,6 +484,7 @@
   .burger{
     grid-row: 1/2;
     grid-column: 1/2;
+    background-color: rgb(55, 134, 252);
   }
 
   /* TO DO SIDE BAR
@@ -516,6 +517,7 @@
   .button1{
     grid-row: 1/2;
     grid-column: 1/2;
+
     }
 
 /* ON ROTATION */
@@ -597,12 +599,30 @@
   .fifty-one{
     grid-row: 4/5;
     grid-column: 1/2;
+    border-left: 4px solid rgba(179, 172, 172, 0.986);
+    border-right: 4px solid rgba(179, 172, 172, 0.986);
+    border-bottom: 4px solid rgba(179, 172, 172, 0.986);
+    margin: 15px;
+    border-radius: 6px;
+    grid-row: 9/10;
+    grid-column: 2/3;
+    border-top: 10px solid #25f0f0;
+    height: 80px;
+    width: 80px;
     }
 
   /* RANK */
   .fifty-two{
   grid-row: 4/5;
-  grid-column: 2/3;
+  grid-column: 2/3;border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+  border-top: 10px solid hsl(253, 76%, 65%);
+  border-left: 4px solid rgba(179, 172, 172, 0.986);
+  border-right: 4px solid rgba(179, 172, 172, 0.986);
+  border-bottom: 4px solid rgba(179, 172, 172, 0.986);
+  height: 80px;
+  width: 80px;
   }
 
 /* CLOSING RATE */
@@ -627,6 +647,16 @@
 .sixty-one{
   grid-row: 3/4;
   grid-column: 1/3;
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 6px;
+  border-top: 10px solid #3dca49;
+  border-left: 4px solid rgba(179, 172, 172, 0.986);
+  border-right: 4px solid rgba(179, 172, 172, 0.986);
+  border-bottom: 4px solid rgba(179, 172, 172, 0.986);
+  width: 100%;
+  height: 10%;
+
 }
 .nine{
   grid-row: 1/2;
@@ -639,14 +669,24 @@ p{
 .hello{
   margin: 0;
 }
+
 .day{
   margin: 0;
+  
 }
 .ninety{
   margin: 0;
+  color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    grid-row: 4/5;
+    grid-column: 1/2;
 }
 .nps{
   margin: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
 .closing-rate{
@@ -657,15 +697,45 @@ p{
 }
 .points{
   margin: 0;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
+
 .point-count{
   margin: 0;
 }
+
 .dollar-amount{
   margin: 0;
 }
+
+.rank{
+  margin:0;
+  color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.rank-title{
+  margin:0;
+  color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
 .income{
   margin: 0;
+  /* margin-top: -80px; */
+  margin: 0px;
+  margin-left: 5px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  }
 }
 /* lkahjdf *
 /
