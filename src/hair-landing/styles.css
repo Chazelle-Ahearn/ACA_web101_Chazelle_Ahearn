@@ -222,21 +222,6 @@
 }
 
 
-/* .four{
-  background-image: url("./beard1.png");
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-} */
-
-
-
-/* .forty-one{
-  display: flex;
-  justify-content: space-around;
-} */
 
 
 
@@ -244,47 +229,46 @@
 
 
 
-
-
-/* @media (min-width: 768px) {
-  .main-container .item {
+@media (min-width: 768px) {
+  .grid-container .item {
     display: inline-block;
   }
 
   @media (min-width: 992px) {
-    .main-container .item {
+    .grid-container .item {
       display: inline-block;
-    } */
 
-    /* .twenty-four{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+      .twenty-four{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      
+      .home{
+        margin-left: 12px;
+        font-size: 13px;
+      }
+      
+      .about{
+        margin-left: 12px;
+        font-size: 13px;
+      }
+      
+      .gallery{
+        margin-left: 12px;
+        font-size: 13px;
+      }
+      
+      .blog{
+        margin-left: 12px;
+        font-size: 13px;
+      }
+      
+      .contact{
+        margin-left: 12px;
+        font-size: 13px;
+      }
     }
-    
-    .home{
-      margin-left: 12px;
-      font-size: 13px;
-    }
-    
-    .about{
-      margin-left: 12px;
-      font-size: 13px;
-    }
-    
-    .gallery{
-      margin-left: 12px;
-      font-size: 13px;
-    }
-    
-    .blog{
-      margin-left: 12px;
-      font-size: 13px;
-    }
-    
-    .contact{
-      margin-left: 12px;
-      font-size: 13px;
-    } */
+
 
 
