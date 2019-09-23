@@ -1,0 +1,211 @@
+
+body{
+  height: 200%;
+}
+
+.UI{
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.glyphicon{
+  color: rgb(168, 168, 184);
+  display: flex;
+}
+
+.menu-text{
+  color: black;
+  font-weight: bold;
+}
+
+.background-one{
+  background-color: rgb(16, 167, 167);
+  height: 100px;
+  width: 400px;
+}
+
+.shadow{
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px #666363;;
+}
+
+.button-one{
+font-size: 16px;
+border-radius: 5px;
+color: white;
+background-image: linear-gradient(to bottom, rgb(63, 222, 243) , rgb(34, 174, 209));
+height: 35px;
+}
+
+.button-two{
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(255, 206, 43) , rgb(248, 167, 74));
+  height: 35px;
+}
+
+.background-two{
+  background-color: rgb(233, 233, 233);
+  height: 100px;
+  width: 500px;
+  padding-top: 30px;
+}
+
+.button-three{
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(156, 86, 235);
+  height: 35px;
+}
+
+.button-four{
+  font-size: 16px;
+  border-radius: 5px;
+  color :rgb(156, 86, 235);
+  background-color: white;
+  height: 35px;
+
+}
+
+.button-three:hover{ position: relative; 
+  top: -1px;} 
+
+.button-four:hover{ position: relative; 
+   top: -1px;} 
+
+
+.background-three{
+  background-color: rgb(233, 233, 233);
+  height: 175px;
+  width: 600px;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.box-one{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 1px;
+}
+
+.box-two{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 1px;
+
+}
+
+.box-three{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 1px;
+}
+
+.box-shadow{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section-one{
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+}
+
+.section-two{
+  height: 30px;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: -30px;
+  padding: 5px;
+  
+}
+
+.section-three{
+  height: 30px;
+  width: 100px;
+  margin-top: 200px;
+}
+
+.section-four{
+  height: 30px;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.menu-text-two{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.seven{
+  margin-top: 50px;
+}
+
+.background-four{
+  background-color: teal;
+  height: 250px;
+  width: 450px;
+}
+
+.different-hue{
+  color: rgba(185, 245, 245, 0.801);
+  font-size: 24px;
+}
+
+.grocery-list{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.background-five{
+  background-color: rgb(145, 167, 240);
+  height:5px;
+  width: 600px;
+}
+
+.background-six{
+  background-color: rgb(226, 223, 223);
+  height: 175px;
+  width: 600px;
+}
+
+.liveliness{
+  font-size: 16px;
+  padding-top: 10px;
+  background-color: rgb(236, 230, 230);
+  border-bottom: double 1px rgb(213, 222, 252);
+}
+
+.background-seven{
+  border-color: rgb(145, 167, 240);
+  height:10px;
+  width: 600px;
+}
+
+.background-eight{
+  background-color: rgb(112, 110, 110);
+  height: 175px;
+  width: 600px;
+}
+
+.contrasted{
+  font-size: 20px;
+  padding-top: 10px;
+  background-color: rgb(219, 219, 219);
+
+}
