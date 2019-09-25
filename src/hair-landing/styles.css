@@ -3,248 +3,411 @@
   margin: 0;
 
 }
+@media (max-width: 568px){
 
-.grid-container{
-  height: 100%;
-  width: 100%;
-  /* display: grid; */
-  /* grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
-  grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr; */
-}
+  .grid-container{
+    height: 100%;
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
+    grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr; */
+  }
 
-.header{
-  background-color: rgb(206, 203, 203);
-  height: 40px;
-  width: 375px;
-  border-bottom: 1px dashed rgb(133, 131, 131);
-  font-family: 'Paytone One', sans-serif;
-  /* grid-row: 1/2;
-  grid-column: 1/12; */
-  align-items: flex-end;
-}
+  .header{
+    background-color: rgb(206, 203, 203);
+    height: 40px;
+    width: 375px;
+    border-bottom: 1px dashed rgb(133, 131, 131);
+    font-family: 'Paytone One', sans-serif;
+    /* grid-row: 1/2;
+    grid-column: 1/12; */
+    align-items: flex-end;
+  }
 
 
-.one{
-  background-color: rgb(206, 203, 203);
-  height: 40px;
-  width: 500px;
-  border-bottom: 1px dashed rgb(133, 131, 131);
-  font-family: 'Paytone One', sans-serif;
-  font-size: 14px;
-  /* grid-row: 1/2;
-  grid-column: 1/12; */
-}
+  .one{
+    background-color: rgb(206, 203, 203);
+    height: 40px;
+    width: 500px;
+    border-bottom: 1px dashed rgb(133, 131, 131);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 14px;
+  }
 
-.mustache{
-  height: 50px;
-  width: 170px;
-  margin-left: 150px;
-  margin-top: 15px;
-  /* display:grid;
-  grid-row: 3/5;
-  grid-column: 3/6;
-  display: flex;
-  justify-content: center; */
-}
+  .mustache{
+    height: 50px;
+    width: 170px;
+    margin-left: 150px;
+    margin-top: 15px;
+    /* display:grid;
+    grid-row: 3/5;
+    grid-column: 3/6;
+    display: flex;
+    justify-content: center; */
+  }
 
-.mustacchio{
-  font-size: 60px;
-  font-family: 'Pacifico', cursive;
-  /* display:grid;
-  grid-row: 3/5;
-  grid-column: 2/8; */
-  margin-left: 120px;
-  margin-bottom: 20px;
-  margin-top: -18px;
-}
+  .mustacchio{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: -18px;
+  }
 
-.three{
-  color: black;
-  margin-left: 220px;
-  margin-bottom: 20px;
-}
+  .three{
+    color: black;
+    margin-left: 220px;
+    margin-bottom: 20px;
+  }
 
-.background-picture{
-  background-image: url("./beard1.png");
-  width: 500px;
-  height: 600px;
-  background-repeat: no-repeat;
-  line-height: 50px;
+  .background-picture{
+    background-image: url("./beard1.png");
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    line-height: 50px;
 
-}
+  }
 
-.line-one{
-  background-color: white;
-  color: black;
-  display: inline-block;
-  margin-top: 40px;
-  font-size: 20px;
-  font-family: 'Arvo', serif;
+  .line-one{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
 
-}
+  }
 
-.line-two{
-  background-color: black;
-  color: white;
-  margin-top: 30px;
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-}
+  .line-two{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
 
-.line-three{
-  background-color: black;
-  color: white;
-  margin-top: 30px;
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-}
+  .line-three{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
 
-.line-four{
-  background-color: black;
-  color: white;
-  margin-top: 30px;
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-}
+  .line-four{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
 
-.button {
-  background-color: rgb(45, 141, 170);
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-}
+  .button {
+    background-color: rgb(45, 141, 170);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
 
-.four{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
+  .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
 
-.neckline{
-  width: 400px;
-  height: 300px;
-  margin-left: 130px; 
-}
+  .neckline{
+    width: 400px;
+    height: 300px;
+    margin-left: 130px; 
+  }
 
-.neckline-text{
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-  padding-bottom: 40px;
-  padding-top: 10px;
+  .neckline-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    
+  }
+
+  .selleck{
+    width: 300px;
+    height: 300px;
+  }
+
+  .selleck-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  .hipster{
+    width: 400px;
+    height: 300px;
+    margin-right: 90px;
+
+  }
+
+  .hipster-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  .six{
+    background-color: rgb(48, 44, 44);
+    height: 110px;
+    width: 500px;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+
+  .copy-right{
+    background-color: rgb(48, 44, 44);
+    color: white;
+    padding-top: 10px;
+  }
+
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 44, 44);
+    margin-right: 200px;
+    padding-top: 30px;
+    
+    
+  }
+
+  .twitter{
+    width: 30px;
+    margin: 10px;
+  }
+
+  .facebook{
+  
+    width: 30px;
+    margin: 10px;
+  }
+
+  .google{
+    
+    width: 30px;
+    margin: 10px;
+  }
+
+  .pinterest{
+    
+    width: 30px;
+    margin: 10px;
+  }
+
+  .seven{
+    background-color: white;
+    height: 5%;
+  }
+
   
 }
 
-.selleck{
-  width: 300px;
-  height: 300px;
-}
-
-.selleck-text{
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-  padding-bottom: 40px;
-  padding-top: 10px;
-}
-
-.hipster{
-  width: 400px;
-  height: 300px;
-  margin-right: 90px;
-
-}
-
-.hipster-text{
-  font-size: 20px;
-  font-family: 'Arvo', serif;
-  padding-bottom: 40px;
-  padding-top: 10px;
-}
-
-.six{
-  background-color: rgb(48, 44, 44);
-  height: 110px;
-  width: 500px;
-  justify-content: space-between;
-  color: white;
-  padding-top: 10px;
-  padding-left: 100px;
-}
-
-.copy-right{
-  background-color: rgb(48, 44, 44);
-  color: white;
-  padding-top: 10px;
-}
-
-
-.icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(48, 44, 44);
-  margin-right: 200px;
-  padding-top: 30px;
-  
-  
-}
-
-.twitter{
-  width: 30px;
-  margin: 10px;
-}
-
-.facebook{
- 
-  width: 30px;
-  margin: 10px;
-}
-
-.google{
-  
-  width: 30px;
-  margin: 10px;
-}
-
-.pinterest{
-  
-  width: 30px;
-  margin: 10px;
-}
-
-.seven{
-  background-color: white;
-  height: 5%;
-}
 
 
 
 
-
-
-
-
-
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   .grid-container .item {
     display: inline-block;
   }
 
-  @media (min-width: 992px) {
+  .one{
+    background-color: rgb(206, 203, 203);
+    height: 40px;
+    width: 768px;
+    border-bottom: 1px dashed rgb(133, 131, 131);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 14px;
+  }
+
+  .mustache{
+    height: 100px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 15px;
+  }
+
+  .mustacchio{
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 275px;
+    margin-bottom: 20px;
+    margin-top: -18px;
+  }
+
+  .three{
+    color: black;
+    margin-left: 425px;
+    margin-bottom: 20px;
+  }
+
+  .background-picture{
+    background-image: url("./beard1.png");
+    width: 800px;
+    height: 500px;
+    background-repeat: no-repeat;
+    line-height: 50px;
+  }
+
+  .line-one{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+
+  }
+
+  .line-two{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .line-three{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .line-four{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .button {
+    background-color: rgb(45, 141, 170);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .four{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* max-width: 100%; */
+
+  }
+
+  .neckline{
+    width: 300px;
+    height: 150px;
+  }
+
+  .neckline-text, .selleck-text,.hipster-text {
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding: 20px 0;
+  }
+  
+
+  .selleck{
+    max-width: 300px;
+    height: 150px; 
+    /* margin-right: 200px; */
+  }
+
+ 
+
+  .hipster{
+    width: 300px;
+    height: 150px;
+
+  }
+
+
+    .six{
+      padding-top: 30px;
+
+    }
+  
+    .copy-right{
+      color: rgb(17, 16, 16);
+      text-align: center;
+    }
+  
+  
+    .icons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(48, 44, 44);
+      width: 800px;
+      margin-right: 200px;
+      
+    }
+  
+    .twitter{
+      width: 30px;
+      margin: 10px;
+    }
+  
+    .facebook{
+    
+      width: 30px;
+      margin: 10px;
+    }
+  
+    .google{
+      width: 30px;
+      margin: 10px;
+    }
+  
+    .pinterest{
+      
+      width: 30px;
+      margin: 10px;
+    }
+  
+    .seven{
+      background-color: white;
+      height: 5%;
+    }
+    
+
+  /* @media (min-width: 992px) {
     .grid-container .item {
       display: inline-block;
-
-      .twenty-four{
+    } */
+      /* .twenty-four{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-      }
+      } */
       
-      .home{
+      /* .home{
         margin-left: 12px;
         font-size: 13px;
       }
@@ -267,8 +430,8 @@
       .contact{
         margin-left: 12px;
         font-size: 13px;
-      }
+      } */
     }
 
 
-
+ */
