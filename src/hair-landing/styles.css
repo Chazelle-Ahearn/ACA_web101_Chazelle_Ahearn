@@ -169,14 +169,14 @@
 
   footer{
     width:100%;
-    background-color: rgb(48, 44, 44);
 
   }
   footer .icons{
     display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 44, 44);
 
   }
 
@@ -184,21 +184,10 @@
   .copy-right{
     background-color: rgb(48, 44, 44);
     color: white;
-    padding-top: 10px;
+    padding-top: 5px;
+    text-align: center;
   }
 
-
-  /* .icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(48, 44, 44);
-    margin-right: 200px;
-    padding-top: 30px;
-    
-    
-  } */
 
   .twitter{
     width: 30px;
@@ -223,11 +212,10 @@
     margin: 10px;
   }
 
-  .seven{
+  .white-space{
     background-color: white;
     height: 5%;
   }
-
 
 
 
