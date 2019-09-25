@@ -127,6 +127,7 @@
     font-size: 16px;
     height: 60px;
     width: 90px;
+    margin: 10px;
     
   }
 
@@ -171,6 +172,7 @@
     width:100%;
 
   }
+
   footer .icons{
     display: flex;
     flex-direction: row;
@@ -222,111 +224,17 @@
 
 
  @media (min-width: 768px) {
-  .grid-container .item {
+  .main-container {
     display: inline-block;
-  }
-
-  .twenty-four{
-    display: none;
-  }
-
-  .one{
-    background-color: rgb(206, 203, 203);
-    height: 40px;
-    width: 768px;
-    border-bottom: 1px dashed rgb(133, 131, 131);
-    font-family: 'Paytone One', sans-serif;
-    font-size: 14px;
-  }
-
-  .mustache{
-    height: 100px;
-    width: 300px;
-    margin-left: 300px;
-    margin-top: 15px;
-  }
-
-  .mustacchio{
-    font-size: 80px;
-    font-family: 'Pacifico', cursive;
-    margin-left: 275px;
-    margin-bottom: 20px;
-    margin-top: -18px;
-  }
-
-  .three{
-    color: black;
-    margin-left: 425px;
-    margin-bottom: 20px;
-  }
-
-  .background-picture{
-    background-image: url("./beard1.png");
-    width: 800px;
-    height: 500px;
-    background-repeat: no-repeat;
-    line-height: 50px;
-  }
-
-  .line-one{
-    background-color: white;
-    color: black;
-    display: inline-block;
-    margin-top: 40px;
-    font-size: 20px;
-    font-family: 'Arvo', serif;
-
-  }
-
-  .line-two{
-    background-color: black;
-    color: white;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: 'Arvo', serif;
-  }
-
-  .line-three{
-    background-color: black;
-    color: white;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: 'Arvo', serif;
-  }
-
-  .line-four{
-    background-color: black;
-    color: white;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: 'Arvo', serif;
-  }
-
-  .button {
-    background-color: rgb(45, 141, 170);
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-  }
-
-  .four{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    /* max-width: 100%; */
-
   }
 
   .neckline{
-    width: 300px;
-    height: 150px;
+    width: 450px;
+    height: 300px;
   }
 
   .neckline-text, .selleck-text,.hipster-text {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Arvo', serif;
     padding: 20px 0;
   }
@@ -334,71 +242,60 @@
 
   .selleck{
     max-width: 300px;
-    height: 150px; 
+    height: 270px; 
     /* margin-right: 200px; */
   }
 
- 
 
   .hipster{
-    width: 300px;
-    height: 150px;
+    width: 450px;
+    height: 300px;
 
   }
 
-
-    .six{
-      padding-top: 30px;
-
-    }
   
     .copy-right{
-      color: rgb(17, 16, 16);
+      color: white;
       text-align: center;
     }
   
-  
-    .icons{
+
+    footer .icons{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
       background-color: rgb(48, 44, 44);
-      width: 800px;
-      margin-right: 200px;
-      
-    }
   
+    }
+
     .twitter{
-      width: 30px;
+      width: 40px;
       margin: 10px;
     }
   
     .facebook{
     
-      width: 30px;
+      width: 40px;
       margin: 10px;
     }
   
     .google{
-      width: 30px;
+      width: 40px;
       margin: 10px;
     }
   
     .pinterest{
       
-      width: 30px;
+      width: 40px;
       margin: 10px;
     }
-  
-    .seven{
-      background-color: white;
-      height: 5%;
-    }
+
     
 
+
   @media (min-width: 992px) {
-    .grid-container .item {
+    .main-container {
       display: inline-block;
     }
 
