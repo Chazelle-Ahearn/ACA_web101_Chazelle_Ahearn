@@ -3,15 +3,60 @@
   margin: 0;
 
 }
-@media (max-width: 568px){
 
-  .grid-container{
+  .main-container{
     height: 100%;
     width: 100%;
-    /* display: grid; */
-    /* grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
-    grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr; */
   }
+
+ header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ header .mustache{
+  height: 100px;
+  width: 175px;
+  padding-top: 30px;
+ }
+
+ header .mustacchio{
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+ }
+
+ header nav {
+   height: 80px;
+ }
+
+ header nav ul{
+    /* this goes in desktop view  */
+  /* display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-decoration: none; */
+   display: none;
+ }
+
+ header .header-text{
+   display: flex;
+   flex-direction: column;
+  
+ }
+.section-one{
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
   .header{
     background-color: rgb(206, 203, 203);
@@ -19,8 +64,6 @@
     width: 375px;
     border-bottom: 1px dashed rgb(133, 131, 131);
     font-family: 'Paytone One', sans-serif;
-    /* grid-row: 1/2;
-    grid-column: 1/12; */
     align-items: flex-end;
   }
 
@@ -34,33 +77,7 @@
     font-size: 14px;
   }
 
-  .mustache{
-    height: 50px;
-    width: 170px;
-    margin-left: 150px;
-    margin-top: 15px;
-    /* display:grid;
-    grid-row: 3/5;
-    grid-column: 3/6;
-    display: flex;
-    justify-content: center; */
-  }
-
-  .mustacchio{
-    font-size: 60px;
-    font-family: 'Pacifico', cursive;
-    margin-left: 120px;
-    margin-bottom: 20px;
-    margin-top: -18px;
-  }
-
-  .three{
-    color: black;
-    margin-left: 220px;
-    margin-bottom: 20px;
-  }
-
-  .background-picture{
+  header .header-text{
     background-image: url("./beard1.png");
     width: 500px;
     height: 600px;
@@ -107,31 +124,22 @@
     background-color: rgb(45, 141, 170);
     border: none;
     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-  }
-
-  .four{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    font-size: 16px;
+    height: 60px;
+    width: 90px;
+    
   }
 
   .neckline{
     width: 400px;
     height: 300px;
-    margin-left: 130px; 
+    margin-left: 100px;
   }
 
   .neckline-text{
     font-size: 20px;
     font-family: 'Arvo', serif;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     
   }
 
@@ -143,33 +151,35 @@
   .selleck-text{
     font-size: 20px;
     font-family: 'Arvo', serif;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
+
   }
 
   .hipster{
     width: 400px;
     height: 300px;
-    margin-right: 90px;
-
+    margin-right: 115px;
   }
 
   .hipster-text{
     font-size: 20px;
     font-family: 'Arvo', serif;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
-  .six{
+  footer{
+    width:100%;
     background-color: rgb(48, 44, 44);
-    height: 110px;
-    width: 500px;
-    justify-content: space-between;
-    color: white;
-    padding-top: 10px;
-    padding-left: 100px;
+
   }
+  footer .icons{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  }
+
 
   .copy-right{
     background-color: rgb(48, 44, 44);
@@ -178,7 +188,7 @@
   }
 
 
-  .icons{
+  /* .icons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -188,7 +198,7 @@
     padding-top: 30px;
     
     
-  }
+  } */
 
   .twitter{
     width: 30px;
@@ -218,8 +228,6 @@
     height: 5%;
   }
 
-  
-}
 
 
 
@@ -228,6 +236,10 @@
  @media (min-width: 768px) {
   .grid-container .item {
     display: inline-block;
+  }
+
+  .twenty-four{
+    display: none;
   }
 
   .one{
@@ -397,40 +409,52 @@
     }
     
 
-  /* @media (min-width: 992px) {
+  @media (min-width: 992px) {
     .grid-container .item {
       display: inline-block;
-    } */
-      /* .twenty-four{
+    }
+
+    .one{
+      background-color: rgb(206, 203, 203);
+      height: 40px;
+      width: 100%;
+      border-bottom: 1px dashed rgb(133, 131, 131);
+      font-family: 'Paytone One', sans-serif;
+      font-size: 14px;
+    }
+
+    .three{
+      display: none;
+    }
+  
+    .mustache{
+      height: 200px;
+      width: 500px;
+      margin-left: 340px;
+      margin-top: 15px;
+    }
+  
+    .mustacchio{
+      font-size: 120px;
+      font-family: 'Pacifico', cursive;
+      margin-left: 350px;
+      
+    }
+
+      .twenty-four{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-      } */
-      
-      /* .home{
-        margin-left: 12px;
-        font-size: 13px;
+      }
+
+      .nav{
+        display: flex;
+        height: 80px;
+        justify-content: space-around;
+        align-items: center;
       }
       
-      .about{
-        margin-left: 12px;
-        font-size: 13px;
-      }
-      
-      .gallery{
-        margin-left: 12px;
-        font-size: 13px;
-      }
-      
-      .blog{
-        margin-left: 12px;
-        font-size: 13px;
-      }
-      
-      .contact{
-        margin-left: 12px;
-        font-size: 13px;
-      } */
+    
     }
 
 
