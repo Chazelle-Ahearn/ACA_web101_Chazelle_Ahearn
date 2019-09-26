@@ -32,7 +32,6 @@
  }
 
  header nav ul{
-    /* this goes in desktop view  */
   /* display: flex;
    justify-content: space-around;
    align-items: center;
@@ -228,6 +227,11 @@
     display: inline-block;
   }
 
+  .main-container{
+    height: 100%;
+    width: 100%;
+  }
+
   .neckline{
     width: 450px;
     height: 300px;
@@ -299,38 +303,48 @@
       display: inline-block;
     }
 
-    .one{
-      background-color: rgb(206, 203, 203);
-      height: 40px;
+    .main-container{
+      height: 100%;
       width: 100%;
-      border-bottom: 1px dashed rgb(133, 131, 131);
-      font-family: 'Paytone One', sans-serif;
-      font-size: 14px;
     }
 
-    .three{
-      display: none;
-    }
+   header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   header .header-text{
+    background-image: url("./beard1.png");
+    width: 100%;
+
+    /* background-repeat: no-repeat; */
+    /* line-height: 50px; */
+
+  }
   
-    .mustache{
-      height: 200px;
-      width: 500px;
-      margin-left: 340px;
-      margin-top: 15px;
-    }
+   header .mustache{
+    height: 275px;
+    width: 450px;
+    padding-top: 30px;
+   }
   
+   header .mustacchio{
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+   }
+
+   .burger{
+     display: none;
+   }
+
+
     .mustacchio{
-      font-size: 120px;
+      font-size: 150px;
       font-family: 'Pacifico', cursive;
-      margin-left: 350px;
-      
     }
 
-      .twenty-four{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
 
       .nav{
         display: flex;
