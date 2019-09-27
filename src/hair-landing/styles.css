@@ -315,14 +315,13 @@
     align-items: center;
    }
 
+
    header .header-text{
     background-image: url("./beard1.png");
-    width: 100%;
-
-    /* background-repeat: no-repeat; */
-    /* line-height: 50px; */
-
+    width: 80%;
+    background-size: cover;
   }
+
   
    header .mustache{
     height: 275px;
@@ -348,15 +347,59 @@
 
       .nav{
         display: flex;
-        height: 80px;
-        justify-content: space-around;
         align-items: center;
+        height: 50px;
       }
       
+      .section-one{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+      }
 
-      .input
+
+      .neckline{
+        width: 350px;
+        height: 200px;
+      }
     
-    }
+       .neckline-text, .selleck-text,.hipster-text {
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+        padding: 20px 0;
+      }
+       
+    
+      .selleck{
+        max-width: 250px;
+        height: 200px; 
+      }
+    
+    
+      .hipster{
+        width: 350px;
+        height: 200px;
+      }
 
+      .home{
+        margin: 30px;
+      }
 
- */
+      .about{
+        margin: 30px;
+      }
+
+      .gallery{
+        margin: 30px;
+      }
+
+      .blog{
+        margin: 30px;
+      }
+
+      .contact{
+        margin: 30px;
+      }
+
+    
+
