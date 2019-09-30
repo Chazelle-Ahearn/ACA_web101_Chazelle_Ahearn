@@ -3,7 +3,7 @@
 }
 
 .main-container{
-  height: 100%;
+  height: 130%;
   width: 100%;
   border-top: 20px solid grey;
   border-bottom: 20px solid grey;
@@ -26,15 +26,21 @@ nav{
   margin: 30px;
 }
 
-.home, .projects, .contact, .ca{
+.home, .projects, .contact {
   font-family: 'Lustria', serif;
   font-weight: bold;
 }
 
+.home:hover, .projects:hover, .contact:hover{
+  position: relative; 
+  top: -1px;
+  color: grey;
+}
+
 .section-one{
   background-image: url(./plantvase.jpg);
-  width: 375px;
-  height: 300px;
+  width: 100%;
+  height: 50%;
   background-size: cover;
   margin-top: 20px;
   border-top: 2px solid rgb(184, 179, 179);
@@ -43,12 +49,12 @@ nav{
 }
 
 .text{
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
   font-family: 'Lustria', serif;
   font-weight: bold;
   font-size: 25px;
-  margin-left: 170;
-  margin-top: 120;
+  margin-left: 300;
+  margin-top: 190;
 }
 
 .hi{
@@ -74,4 +80,103 @@ nav{
 
 .laptop, .desk, .coffee{
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 150%;
+    width: 100%;
+    border-top: 20px solid grey;
+    border-bottom: 20px solid grey;
+  }
+
+  nav{
+    padding-top: 50px;
+    margin: 0;
+  }
+
+  .section-one{
+    background-image: url(./plantvase.jpg);
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .text{
+    font-size: 50px;
+    transform: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50;
+    padding-top: 120;
+  }
+
+  .hi{
+    font-size: 25px;
+  }
+
+  .footer{
+    margin-top: 30px;
+  }
+
+  .laptop, .desk, .coffee{
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 185%;
+    width: 100%;
+    border-top: 20px solid grey;
+    border-bottom: 20px solid grey;
+  }
+
+  nav{
+    padding-top: 60px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .section-one{
+    background-image: url(./plantvase.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .text{
+    font-size: 70px;
+    transform: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10;
+    padding-top: 130;
+  }
+
+  .hi{
+    font-size: 25px;
+  }
+
+  .laptop, .desk, .coffee{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
 }
