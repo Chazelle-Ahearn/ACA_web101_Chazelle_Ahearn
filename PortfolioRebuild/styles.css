@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+}
+
+.main-container{
+  height: 130%;
+  width: 100%;
+  border-top: 20px solid grey;
+  border-bottom: 20px solid grey;
+}
+
+.header-bar{
+  height: 10%;
+  width: 100%;
+  background-color: rgb(218, 226, 218);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 5px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.home, .projects, .contact, .about {
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+}
+
+.home:hover, .projects:hover, .about:hover, .contact:hover{
+  position: relative; 
+  top: -1px;
+  color: grey;
+}
+
+.section-one{
+  background-image: url(./plantvase.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  margin-top: 20px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  border-radius: 3px;
+}
+
+.text{
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 300;
+  margin-top: 190;
+}
+
+.hi{
+  display: flex;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: rgb(218, 226, 218);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 20px;
+  font-family: 'Lustria', serif;
+  text-align: center;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.laptop, .desk, .coffee{
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 150%;
+    width: 100%;
+    border-top: 20px solid grey;
+    border-bottom: 20px solid grey;
+  }
+
+  nav{
+    padding-top: 50px;
+    margin: 0;
+  }
+
+  .section-one{
+    background-image: url(./plantvase.jpg);
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .text{
+    font-size: 50px;
+    transform: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50;
+    padding-top: 120;
+  }
+
+  .hi{
+    font-size: 25px;
+  }
+
+  .footer{
+    margin-top: 30px;
+  }
+
+  .laptop, .desk, .coffee{
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 185%;
+    width: 100%;
+    border-top: 20px solid grey;
+    border-bottom: 20px solid grey;
+  }
+
+  nav{
+    padding-top: 60px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .section-one{
+    background-image: url(./plantvase.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .text{
+    font-size: 70px;
+    transform: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10;
+    padding-top: 130;
+  }
+
+  .hi{
+    font-size: 25px;
+  }
+
+  .laptop, .desk, .coffee{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+}
