@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+}
+
+.main-container{
+  height: 100%;
+  width: 100%;
+  border-top: 20px solid grey;
+  border-bottom: 20px solid grey;
+}
+
+.header-bar{
+  height: 10%;
+  width: 100%;
+  background-color: rgb(218, 226, 218);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 5px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.home, .projects, .contact, .ca{
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+}
+
+.section-one{
+  background-image: url(./plantvase.jpg);
+  width: 375px;
+  height: 300px;
+  background-size: cover;
+  margin-top: 20px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  border-radius: 3px;
+}
+
+.text{
+  transform: rotate(-90deg);
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 170;
+  margin-top: 120;
+}
+
+.hi{
+  display: flex;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: rgb(218, 226, 218);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 20px;
+  font-family: 'Lustria', serif;
+  text-align: center;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.laptop, .desk, .coffee{
+  border-radius: 50%;
+}
