@@ -3,10 +3,9 @@
 }
 
 .main-container{
-  height: 125%;
+  height: 130%;
   width: 100%;
   border-top: 20px solid grey;
-  border-bottom: 20px solid grey;
 }
 
 .header-bar{
@@ -23,7 +22,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .home, .projects, .contact, .about {
@@ -37,24 +36,21 @@ nav{
   color: grey;
 }
 
-.section-one{
-  background-image: url(./MyProfilePic.jpg);
+.profile-picture{
+  height: 40%;
   width: 100%;
-  height: 35%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 20px;
   border-top: 2px solid rgb(184, 179, 179);
   border-bottom: 2px solid rgb(184, 179, 179);
-  border-radius: 3px;
+  margin-top: 20px;
 }
+
 
 .text{
   font-family: 'Lustria', serif;
   font-weight: bold;
   font-size: 40px;
   margin-left: 50px;
-  margin-top: 190;
+  margin-top: -100;
 }
 
 .about-me{
@@ -65,7 +61,7 @@ nav{
   background-color: rgb(250, 228, 237);
   border-radius: 3px;
   border-top: 2px solid rgb(184, 179, 179);
-  margin-top: 20px;
+  margin-top: 70px;
   font-family: 'Lustria', serif;
   text-align: center;
 }
@@ -114,6 +110,13 @@ nav{
   margin-left: 10px;
 }
 
+.bottom-border{
+  margin-top: 40px;
+  border-bottom: 20px solid grey;
+}
+
+
+
 
 @media (min-width: 768px) {
   .main-container {
@@ -124,31 +127,25 @@ nav{
     height: 135%;
     width: 100%;
     border-top: 20px solid grey;
-    border-bottom: 20px solid grey;
   }
 
-  .section-one{
-    background-image: url(./MyProfilePic.jpg);
+  .profile-picture{
+    height: 50%;
     width: 100%;
-    height: 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    border-top: 2px solid rgb(184, 179, 179);
-    border-bottom: 2px solid rgb(184, 179, 179);
-    border-radius: 3px;
+    margin-bottom: 40px;
   }
 
   .text{
     font-family: 'Lustria', serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 55px;
     margin-left: 50px;
-    margin-top: 190;
+    margin-top: -160;
   }
 
   .about-me, .more-about-me{
     font-size: 20px;
+  
   }
 
   .more-about-me{
@@ -202,19 +199,16 @@ nav{
     height: 135%;
     width: 100%;
     border-top: 20px solid grey;
-    border-bottom: 20px solid grey;
   }
-  
-  .section-one{
-    background-image: url(./MyProfilePic.jpg);
+
+  .profile-picture{
+    height: 50%;
     width: 100%;
-    height: 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    border-top: 2px solid rgb(184, 179, 179);
-    border-bottom: 2px solid rgb(184, 179, 179);
-    border-radius: 3px;
+    margin-bottom: 40px;
   }
+
+
+  
+ 
 
 }
