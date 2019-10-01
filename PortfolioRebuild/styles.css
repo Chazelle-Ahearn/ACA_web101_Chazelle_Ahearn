@@ -3,10 +3,9 @@
 }
 
 .main-container{
-  height: 130%;
+  height: 100%;
   width: 100%;
   border-top: 20px solid grey;
-  border-bottom: 20px solid grey;
 }
 
 .header-bar{
@@ -16,7 +15,7 @@
   border-radius: 3px;
   border-top: 2px solid rgb(184, 179, 179);
   border-bottom: 2px solid rgb(184, 179, 179);
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 nav{
@@ -37,7 +36,7 @@ nav{
   color: grey;
 }
 
-.section-one{
+/* .section-one{
   background-image: url(./plantvase.jpg);
   width: 100%;
   height: 50%;
@@ -46,14 +45,28 @@ nav{
   border-top: 2px solid rgb(184, 179, 179);
   border-bottom: 2px solid rgb(184, 179, 179);
   border-radius: 3px;
+} */
+
+.section-one{
+  display: flex;
+}
+
+.plant{
+  width: 100%;
+  height: 35%;
+  margin-top: 20px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
 }
 
 .text{
+  display: flex;
   font-family: 'Lustria', serif;
   font-weight: bold;
   font-size: 25px;
-  margin-left: 300;
-  margin-top: 190;
+  margin-top: 200px;
+  margin-left: -220px;
+
 }
 
 .hi{
@@ -74,7 +87,11 @@ nav{
 .footer{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  /* margin-top: 20px; */
+  padding: 30px 0;
+  border-bottom: 20px solid grey;
+  position: relative;
+
 }
 
 .laptop, .desk, .coffee{
@@ -87,32 +104,27 @@ nav{
   }
 
   .main-container{
-    height: 150%;
+    height: 100%;
     width: 100%;
     border-top: 20px solid grey;
-    border-bottom: 20px solid grey;
   }
 
   nav{
     padding-top: 50px;
-    margin: 0;
+    margin: -20px;
   }
 
-  .section-one{
-    background-image: url(./plantvase.jpg);
-    width: 100%;
-    height: 70%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 
   .text{
-    font-size: 50px;
+    font-size: 40px;
     transform: none;
     display: flex;
     justify-content: flex-end;
     padding-right: 50;
     padding-top: 120;
+    margin-top: 200px;
+    margin-left: -350px;
+
   }
 
   .hi{
@@ -142,7 +154,7 @@ nav{
     height: 185%;
     width: 100%;
     border-top: 20px solid grey;
-    border-bottom: 20px solid grey;
+  
   }
 
   nav{
@@ -151,21 +163,13 @@ nav{
     font-size: 20px;
   }
 
-  .section-one{
-    background-image: url(./plantvase.jpg);
-    width: 100%;
-    height: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   .text{
     font-size: 70px;
     transform: none;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10;
-    padding-top: 130;
+    margin-top: 200px;
+    margin-left: -550px;
   }
 
   .hi{
