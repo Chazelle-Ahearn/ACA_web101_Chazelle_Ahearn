@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+
+.main-container{
+  height: 130%;
+  width: 100%;
+  border-top: 20px solid grey;
+  border-bottom: 20px solid grey;
+}
+
+.header-bar{
+  height: 10%;
+  width: 100%;
+  background-color: rgb(243, 243, 212);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 5px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.home, .projects, .contact, .about {
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+}
+
+.home:hover, .projects:hover, .about:hover, .contact:hover{
+  position: relative; 
+  top: -1px;
+  color: grey;
+}
