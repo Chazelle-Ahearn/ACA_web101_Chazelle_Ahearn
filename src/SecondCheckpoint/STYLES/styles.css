@@ -1,5 +1,5 @@
 *{
-  margin: 10px;
+  margin: 5px;
 }
 
 .main-container{
@@ -17,10 +17,10 @@ width: 100%;
   font-size: 17px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  
+  border-bottom: 1px solid grey;
 }
 
-.training, .group, .hiking, .about-us, .testimonials{
+.training, .group, .hiking, .about-us, .testimonials, .button2{
   cursor: pointer;
 }
 
@@ -36,6 +36,30 @@ width: 100%;
   width: 120px;
   margin-top: -4px;
   cursor: pointer;
+}
+
+.training:hover{
+  color : teal;
+}
+
+.group:hover{
+  color : teal;
+}
+
+.hiking:hover{
+  color: teal;
+}
+
+.about-us:hover{
+  color: teal;
+}
+
+.testimonials:hover{
+  color: teal;
+}
+
+.button1:hover{
+  background-color: rgb(197, 194, 194);
 }
 
 .center-text{
@@ -80,6 +104,87 @@ width: 100%;
   width: 10px;
   color: 2px solid grey;
 }
+
+.footer{
+  border-top: 1px solid rgb(182, 177, 177);
+  margin-top: 50px
+}
+
+.button2{
+  background-color: rgb(44, 43, 43);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.button2:hover{
+  background-color: rgb(197, 194, 194);
+}
+
+.footer-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.LLC{
+  height: 35%;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center; 
+}
+
+.fab:hover{
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+}
+
+.fab{
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+/* .last{
+  margin-top:-150px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: teal;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+} */
+
+.last{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -150px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(8, 194, 194);
+}
+
+.phone-number:hover{
+  color: teal;
+}
+
+
+
+
+
+
+
 
 
 
