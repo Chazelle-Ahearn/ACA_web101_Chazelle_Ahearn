@@ -169,7 +169,7 @@ width: 100%;
   color: teal;
 }
 
-.fas {
+.fas .fa-bars {
   display: none;
 }
 
@@ -207,5 +207,4 @@ width: 100%;
     margin-top: -65px;
   }
 
-  
 }
