@@ -62,8 +62,166 @@ width: 100%;
   background-color: rgb(197, 194, 194);
 }
 
-.section1{
+.philosophy{
   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 50px 0 50px;
+}
+
+.paragraph1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.paragraph2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.paragraph3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.paragraph4{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.the-girls{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.space{
+  width: 75px;
+}
+
+.the-girls2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-left: 220px;
+  margin-right: 200px;
+}
+
+.space2{
+  width: 350px;
+}
+
+
+.footer{
+  border-top: 1px solid rgb(182, 177, 177);
+  margin-top: 50px
+}
+
+.button2{
+  background-color: rgb(44, 43, 43);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.button2:hover{
+  background-color: rgb(197, 194, 194);
+}
+
+.footer-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.LLC{
+  height: 35%;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center; 
+}
+
+.fab:hover{
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+}
+
+.fab{
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.last{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -150px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(8, 194, 194);
+}
+
+.phone-number:hover{
+  color: teal;
+}
+
+.fas .fa-bars {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .training, .group, .hiking, .about-us, .testimonials, .button1{
+    display: none;
+  } 
+
+  .about-us{
+    height: 40px;
+    width: 40px;
+  }
+
+  .lab{
+    display: none;
+  }
+
+  .fas{
+    font-size: 45px;
+    margin-right: 175px;
+  }
+
+  .section1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top:450px;
+  }
+
+ 
+  .the-girls{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
 }
