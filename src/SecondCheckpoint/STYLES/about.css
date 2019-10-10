@@ -20,47 +20,30 @@ width: 100%;
 
 }
 
-.training, .group, .hiking, .about-us, .testimonials, .button2{
+.training, .group, .hiking, .about-button, .testimonials, .button2{
   cursor: pointer;
 }
 
-.button1{
-  background-color: transparent;
-  border: 2px solid white;
+.button1, .about-button{
   color: white;
-  border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   height: 40px;
-  width: 120px;
-  margin-top: -4px;
+  /* width: 120px; */
+  /* margin-top: -4px; */
+  margin-top: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.training:hover{
-  color : teal;
-}
 
-.group:hover{
-  color : teal;
-}
-
-.hiking:hover{
+.training:hover, .group:hover, .hiking:hover,.about-button:hover, .testimonials:hover, .button1:hover{
   color: teal;
 }
 
-.about-us:hover{
-  color: teal;
-}
 
-.testimonials:hover{
-  color: teal;
-}
 
-.button1:hover{
-  background-color: rgb(197, 194, 194);
-}
 
 .philosophy{
   font-family: 'Poppins', sans-serif;
@@ -135,15 +118,12 @@ width: 100%;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  height: 40px;
+  /* height: 40px; */
   width: 200px;
   display: flex;
   justify-content: center;
 }
 
-.button2:hover{
-  background-color: rgb(197, 194, 194);
-}
 
 .footer-button{
   display: flex;
@@ -192,9 +172,14 @@ width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  .training, .group, .hiking, .about-us, .testimonials, .button1{
+  .training, .group, .hiking, .testimonials, .button1, .about-button{
     display: none;
   } 
+
+  .about-us{
+    background-size: contain;
+    max-width: 100%;
+  }
 
   .lab{
     display: none;

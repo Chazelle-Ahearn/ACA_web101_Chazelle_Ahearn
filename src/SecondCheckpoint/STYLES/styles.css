@@ -38,19 +38,21 @@ margin-bottom: 70px;
   margin-top: 10px;
 }
 
-.button1{
-  background-color: transparent;
-  border: 2px solid white;
+.button1, .about-us{
   color: white;
-  border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   height: 40px;
-  width: 120px;
-  margin-top: -4px;
-  margin-top: 20px;
+  /* width: 120px; */
+  /* margin-top: -4px; */
+  margin-top: 30px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.button1:hover{
+  color:teal;
 }
 
 .training:hover{
@@ -73,9 +75,7 @@ margin-bottom: 70px;
   color: teal;
 }
 
-.button1:hover{
-  background-color: rgb(197, 194, 194);
-}
+
 
 .center-text{
   display: flex;
