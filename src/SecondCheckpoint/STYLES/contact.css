@@ -68,7 +68,6 @@ width: 100%;
   margin: 50px 0 50px;
 }
 
-
 .footer{
   margin-top: 200px
 }
@@ -128,7 +127,6 @@ input[type=submit]:hover {
   background-color: rgb(197, 194, 194);
 }
 
-
 .LLC{
   height: 35%;
   width: 100%;
@@ -168,6 +166,10 @@ input[type=submit]:hover {
   display: none;
 }
 
+.fa-bars {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 600px) {
   .training, .group, .hiking, .about-us, .testimonials, .button1{
     display: none;
@@ -177,14 +179,20 @@ input[type=submit]:hover {
     display: none;
   }
 
-  .fas{
+  .fa-bars{
+    visibility: visible;
+    /* font-size: 30px; */
     font-size: 45px;
     margin-right: 175px;
+    margin-top: -10px;
   }
 
   .footer{
     margin-top: 100px
   }
- 
 
+  .logo-pic{
+    height: 300px;
+    width: 500px;
+  }
 }

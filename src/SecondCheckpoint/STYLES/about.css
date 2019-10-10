@@ -124,7 +124,6 @@ width: 100%;
   width: 350px;
 }
 
-
 .footer{
   border-top: 1px solid rgb(182, 177, 177);
   margin-top: 50px
@@ -188,8 +187,8 @@ width: 100%;
   color: teal;
 }
 
-.fas .fa-bars {
-  display: none;
+.fa-bars {
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -201,14 +200,16 @@ width: 100%;
     display: none;
   }
 
-  .fas{
+  .fa-bars{
+    visibility: visible;
+    /* font-size: 30px; */
     font-size: 45px;
     margin-right: 175px;
   }
  
-  .section1{
+  /* .section1{
     background-image: url(../HTML/aboutus.jpg)
-  }
+  } */
 
   .the-girls{
     display: flex;
