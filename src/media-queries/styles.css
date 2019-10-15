@@ -81,11 +81,13 @@ button{
   @media (min-width: 768px) {
     .main-container .item {
       display: inline-block;
-    }
-
-    @media (min-width: 992px) {
-      .main-container .item {
-        display: inline-block;
-      }
+    
     }
   }
+  
+  @media (min-width: 992px) {
+    .main-container .item {
+      display: inline-block;
+    }
+  }
+  
