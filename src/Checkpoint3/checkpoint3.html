@@ -1,0 +1,30 @@
+<script>
+  var suncount = 0;
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sun Clicker</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a href=# onclick="add()"><img src="./sun.png"  alt="" width=400px height=400px></a>
+  <br><br>
+  <p class="there-are">There are</p>
+  <input type="text" id="text" disabled style=text-align:center;>
+  <script>
+  function add(){
+    suncount=suncount + 1
+    document.getElementById("text").value = suncount;
+    document.title = suncount + "Rays";
+  }
+
+  </script>
+ <p class="sun-rays">sun rays... Ouch!</p>
+  <br><br>
+
+  <script src="checkpoint3.js"></script>
+</body>
+</html>
