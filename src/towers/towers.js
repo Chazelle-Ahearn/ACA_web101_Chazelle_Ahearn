@@ -26,7 +26,7 @@ $(document).ready(function() {
 
   function checkForWin(){
     if($('[data-stack=3]').children().length === 4){
-      $('#announce-game-won').text(`You F*ckin' Winner, You!`)
+      $('#announce-game-won').text(`A WIN FOR THE HUMAN!`)
     }
   }
   
