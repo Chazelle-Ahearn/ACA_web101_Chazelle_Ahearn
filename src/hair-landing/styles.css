@@ -1,130 +1,412 @@
 *{
   background-color: rgb(255, 255, 255);
   margin: 0;
-}
-
-.grid-container{
-  height: 100%;
-  width: 100%;
-  /* display: grid; */
-  grid-template-columns: 25% 10% 10% 10% 10% 10% 5% 5% 5% 5% 1fr;
-  grid-template-rows: 5% 10% 6% 10% 10% 6% 6% 6% 10% 3% 15% 10% 1fr;
-}
-
-.header{
-  background-color: rgb(206, 203, 203);
-  height: 40px;
-  width: 375px;
-  border-bottom: 1px dashed rgb(133, 131, 131);
-  font-family: 'Paytone One', sans-serif;
-  grid-row: 1/2;
-  grid-column: 1/12;
-  align-items: flex-end;
-}
-
-
-.one{
-  background-color: rgb(206, 203, 203);
-  height: 40px;
-  width: 375px;
-  border-bottom: 1px dashed rgb(133, 131, 131);
-  font-family: 'Paytone One', sans-serif;
-  font-size: 14px;
-  grid-row: 1/2;
-  grid-column: 1/12;
 
 }
 
-.mustache{
-  height: 50px;
-  width: 80px;
-  margin-left: 140px;
-  margin-top: 15px;
-  /* display:grid;
-  grid-row: 3/5;
-  grid-column: 3/6;
+  .main-container{
+    height: 100%;
+    width: 100%;
+  }
+
+ header{
   display: flex;
-  justify-content: center; */
-}
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
 
-.mustacchio{
-  font-size: 35px;
+ header .mustache{
+  height: 100px;
+  width: 175px;
+  padding-top: 30px;
+ }
+
+ header .mustacchio{
+  font-size: 60px;
   font-family: 'Pacifico', cursive;
-  /* display:grid;
-  grid-row: 3/5;
-  grid-column: 2/8; */
-  margin-left: 110px;
-  margin-bottom: 20px;
-  margin-top: -18px;
-}
+ }
 
-.twenty-four{
+ header nav {
+   height: 80px;
+ }
+
+ header nav ul{
+  /* display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-decoration: none; */
+   display: none;
+ }
+
+ header .header-text{
+   display: flex;
+   flex-direction: column;
+  
+ }
+.section-one{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  grid-row: 4/5;
-  grid-column: 2/7;
+  flex-direction: column;
 }
 
-.home{
-  margin-left: 12px;
-  /* margin-top: -20px; */
-  font-size: 13px;
+.section-one div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.about{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.gallery{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.blog{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.contact{
-  margin-left: 12px;
-  /* margin-top: -30px; */
-  font-size: 13px;
-}
-
-.beard-one{
-  /* display: grid;
-  grid-row: 4/10;
-  grid-column: 1/13; */
-  width: 375px;
-  height: 250px;
-  margin-top: 50px;
-}
-
-.selleck{
- border: 1px solid black;
- margin-top: 30px;
- width: 125px;
- height: 125px;
-}
+  .header{
+    background-color: rgb(206, 203, 203);
+    height: 40px;
+    width: 375px;
+    border-bottom: 1px dashed rgb(133, 131, 131);
+    font-family: 'Paytone One', sans-serif;
+    align-items: flex-end;
+  }
 
 
+  .one{
+    background-color: rgb(206, 203, 203);
+    height: 40px;
+    width: 500px;
+    border-bottom: 1px dashed rgb(133, 131, 131);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 14px;
+  }
+
+  header .header-text{
+    background-image: url("./beard1.png");
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    line-height: 50px;
+
+  }
+
+  .line-one{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+
+  }
+
+  .line-two{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .line-three{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .line-four{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+  }
+
+  .button {
+    background-color: rgb(45, 141, 170);
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    
+  }
+
+  .neckline{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+  }
+
+  .neckline-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-top: 20px;
+    
+  }
+
+  .selleck{
+    width: 300px;
+    height: 300px;
+  }
+
+  .selleck-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-top: 20px;
+
+  }
+
+  .hipster{
+    width: 400px;
+    height: 300px;
+    margin-right: 115px;
+  }
+
+  .hipster-text{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding-top: 20px;
+  }
+
+  footer{
+    width:100%;
+
+  }
+
+  footer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 44, 44);
+
+  }
+
+
+  .copy-right{
+    background-color: rgb(48, 44, 44);
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+
+  .twitter{
+    width: 30px;
+    margin: 10px;
+  }
+
+  .facebook{
+  
+    width: 30px;
+    margin: 10px;
+  }
+
+  .google{
+    
+    width: 30px;
+    margin: 10px;
+  }
+
+  .pinterest{
+    
+    width: 30px;
+    margin: 10px;
+  }
+
+  .white-space{
+    background-color: white;
+    height: 5%;
+  }
+
+  .nav-two{
+    display: none;
+  }
 
 
 
 
-@media (min-width: 768px) {
-  .main-container .item {
+
+ @media (min-width: 768px) {
+  .main-container {
     display: inline-block;
   }
 
+  .main-container{
+    height: 100%;
+    width: 100%;
+  }
+
+  .neckline{
+    width: 450px;
+    height: 300px;
+  }
+
+  .neckline-text, .selleck-text,.hipster-text {
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+    padding: 20px 0;
+  }
+  
+
+  .selleck{
+    max-width: 300px;
+    height: 270px; 
+    /* margin-right: 200px; */
+  }
+
+
+  .hipster{
+    width: 450px;
+    height: 300px;
+
+  }
+
+  
+    .copy-right{
+      color: white;
+      text-align: center;
+    }
+  
+
+    footer .icons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(48, 44, 44);
+  
+    }
+
+    .twitter{
+      width: 40px;
+      margin: 10px;
+    }
+  
+    .facebook{
+    
+      width: 40px;
+      margin: 10px;
+    }
+  
+    .google{
+      width: 40px;
+      margin: 10px;
+    }
+  
+    .pinterest{
+      
+      width: 40px;
+      margin: 10px;
+    }
+
+    .nav-two{
+      display: none;
+    }
+
+
+
   @media (min-width: 992px) {
-    .main-container .item {
+    .main-container {
       display: inline-block;
     }
 
+    .main-container{
+      height: 100%;
+      width: 100%;
+    }
+
+   header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+   header .header-text{
+    background-image: url("./beard1.png");
+    width: 80%;
+    background-size: cover;
+  }
+
+  
+   header .mustache{
+    height: 275px;
+    width: 450px;
+    padding-top: 30px;
+   }
+  
+   header .mustacchio{
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+   }
+
+   .burger{
+     display: none;
+   }
+
+
+    .mustacchio{
+      font-size: 150px;
+      font-family: 'Pacifico', cursive;
+    }
+
+
+      .nav-two{
+        display: flex;
+        align-items: center;
+        height: 50px;
+      }
+      
+      .section-one{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+      }
+
+
+      .neckline{
+        width: 350px;
+        height: 200px;
+      }
+    
+       .neckline-text, .selleck-text,.hipster-text {
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+        padding: 20px 0;
+      }
+       
+    
+      .selleck{
+        max-width: 250px;
+        height: 200px; 
+      }
+    
+    
+      .hipster{
+        width: 350px;
+        height: 200px;
+      }
+
+      .home{
+        margin: 30px;
+      }
+
+      .about{
+        margin: 30px;
+      }
+
+      .gallery{
+        margin: 30px;
+      }
+
+      .blog{
+        margin: 30px;
+      }
+
+      .contact{
+        margin: 30px;
+      }
+
+    
 

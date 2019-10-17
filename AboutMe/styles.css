@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+}
+
+.main-container{
+  height: 130%;
+  width: 100%;
+  border-top: 20px solid grey;
+}
+
+.header-bar{
+  height: 10%;
+  width: 100%;
+  background-color: rgb(250, 228, 237);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 20px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.home, .projects, .contact, .about {
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+}
+
+.home:hover, .projects:hover, .about:hover, .contact:hover{
+  position: relative; 
+  top: -1px;
+  color: grey;
+}
+
+.profile-picture{
+  height: 40%;
+  width: 100%;
+  border-top: 2px solid rgb(184, 179, 179);
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: 20px;
+}
+
+
+.text{
+  font-family: 'Lustria', serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: -100;
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: rgb(250, 228, 237);
+  border-radius: 3px;
+  border-top: 2px solid rgb(184, 179, 179);
+  margin-top: 70px;
+  font-family: 'Lustria', serif;
+  text-align: center;
+}
+
+.more-about-me{
+  display: flex;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: rgb(250, 228, 237);
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(184, 179, 179);
+  margin-top: -50px;
+  font-family: 'Lustria', serif;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.austin, .aca, .lsu{
+  border-radius: 50%;
+}
+
+.austin{
+  margin-left: 20px;
+}
+
+.aca{
+  margin-left: 50px;
+}
+
+.lsu{
+  margin-left: 40px;
+}
+
+.austin-text, .aca-text, .lsu-text{
+  font-family: 'Lustria', serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bottom-border{
+  margin-top: 40px;
+  border-bottom: 20px solid grey;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 135%;
+    width: 100%;
+    border-top: 20px solid grey;
+  }
+
+  .profile-picture{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .text{
+    font-family: 'Lustria', serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-top: -160;
+  }
+
+  .about-me, .more-about-me{
+    font-size: 20px;
+  
+  }
+
+  .more-about-me{
+    margin-top: -20px;
+  }
+
+  .austin{
+    height: 130px;
+    width: 130px;
+    margin-left: 20px;
+  }
+  
+  .aca{
+    height: 130px;
+    width: 130px;
+    margin-left: 50px;
+  }
+  
+  .lsu{
+    height: 130px;
+    width: 130px;
+    margin-left: 40px;
+  }
+  
+  .austin-text, .aca-text, .lsu-text{
+    font-family: 'Lustria', serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .aca-text{
+    margin-left: 25px;
+  }
+
+  .bottom-border{
+    margin-top: 40px;
+    border-bottom: 20px solid grey;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    display: inline-block;
+  }
+
+  .main-container{
+    height: 135%;
+    width: 100%;
+    border-top: 20px solid grey;
+  }
+
+  .profile-picture{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+
+  
+ 
+
+}

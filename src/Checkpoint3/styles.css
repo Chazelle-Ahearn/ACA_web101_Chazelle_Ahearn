@@ -1,0 +1,62 @@
+.container {
+  /* background-color: #E6E6E6; */
+  text-align: center;
+  width: 500px;
+  background-image: url(./tanning.jpg);
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  border: 5px solid rgb(0, 195, 255);
+}
+
+#click-section {
+  padding-top: 20px;
+}
+
+#click {
+  padding: 10px;
+  background-color: rgb(17, 157, 238);
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#autoclicker, #speedup, #super {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+#auto, #speed, #duper {
+  padding: 10px;
+  background-color: #F6F6F6;
+  width: 150px;
+  border-radius: 8px;
+}
+

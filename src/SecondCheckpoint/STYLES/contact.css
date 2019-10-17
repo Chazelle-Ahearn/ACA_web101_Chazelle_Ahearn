@@ -1,0 +1,181 @@
+*{
+  margin: 5px;
+  margin-left: 3px;
+}
+
+.main-container{
+width: 100%;
+}
+
+.header{
+  height: 20%;
+  background-color: rgb(54, 52, 52);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.training, .group, .hiking, .about-button, .testimonials, .button2{
+  cursor: pointer;
+}
+
+.button1, .about-button{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  /* width: 120px; */
+  /* margin-top: -4px; */
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.training:hover, .group:hover, .hiking:hover,.about-button:hover, .testimonials:hover, .button1:hover{
+  color: teal;
+}
+
+.philosophy{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 50px 0 50px;
+}
+
+.footer{
+  margin-top: 200px
+}
+
+.button2{
+  background-color: rgb(44, 43, 43);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.button2:hover{
+  background-color: rgb(197, 194, 194);
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box; 
+}
+
+.learn{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+label{
+  font-family: 'Poppins', sans-serif;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(197, 194, 194);
+}
+
+.LLC{
+  height: 35%;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center; 
+}
+
+.fab:hover{
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+}
+
+.fab{
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.last{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -150px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(8, 194, 194);
+}
+
+.phone-number:hover{
+  color: teal;
+}
+
+.fas .fa-bars {
+  display: none;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .training, .group, .hiking, .about-button, .testimonials, .button1{
+    display: none;
+  } 
+
+  .lab{
+    display: none;
+  }
+
+  .fa-bars{
+    visibility: visible;
+    /* font-size: 30px; */
+    font-size: 45px;
+    margin-right: 175px;
+    margin-top: -10px;
+  }
+
+  .footer{
+    margin-top: 100px
+  }
+
+  .logo-pic{
+    height: 300px;
+    width: 500px;
+  }
+}
